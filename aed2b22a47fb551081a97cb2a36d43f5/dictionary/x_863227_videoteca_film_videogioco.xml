@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Film_Videogioco" max_length="40" name="x_863227_videoteca_film_videogioco" sizeclass="0" type="collection">
+        <element default="true" label="Disponibilità" mandatory="true" max_length="40" name="disponibilit" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Genere" mandatory="true" max_length="40" name="genere" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Prezzo" mandatory="true" max_length="20" name="prezzo" type="price"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Titolo" mandatory="true" max_length="40" name="titolo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="azione" label="Genere" mandatory="true" max_length="40" name="u_genere" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Azione" sequence="0" value="azione"/>
+                <element inactive_on_update="false" label="Avventura" sequence="1" value="avventura"/>
+                <element inactive_on_update="false" label="Commedie" sequence="2" value="commedie"/>
+                <element inactive_on_update="false" label="Drammatico" sequence="3" value="drammatico"/>
+                <element inactive_on_update="false" label="Fantascienza" sequence="4" value="fantascienza"/>
+                <element inactive_on_update="false" label="Horror" sequence="5" value="horror"/>
+                <element inactive_on_update="false" label="Romantico" sequence="6" value="romantico"/>
+                <element inactive_on_update="false" label="Thriller" sequence="7" value="thriller"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

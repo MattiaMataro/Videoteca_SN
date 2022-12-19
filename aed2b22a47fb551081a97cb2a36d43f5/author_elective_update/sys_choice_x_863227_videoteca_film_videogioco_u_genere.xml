@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_genere" table="x_863227_videoteca_film_videogioco" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_genere</element>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_id>73e963ea47bf551081a97cb2a36d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_genere</sys_name>
+            <sys_package display_value="Videoteca" source="x_863227_videoteca">aed2b22a47fb551081a97cb2a36d43f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Videoteca">aed2b22a47fb551081a97cb2a36d43f5</sys_scope>
+            <sys_update_name>sys_choice_x_863227_videoteca_film_videogioco_u_genere</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azione</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fe963ea47bf551081a97cb2a36d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>azione</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avventura</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7be963ea47bf551081a97cb2a36d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>avventura</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commedie</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7e963ea47bf551081a97cb2a36d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>commedie</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drammatico</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77e963ea47bf551081a97cb2a36d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>drammatico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fantascienza</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3e963ea47bf551081a97cb2a36d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>fantascienza</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Horror</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e963ea47bf551081a97cb2a36d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>horror</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Romantico</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffe963ea47bf551081a97cb2a36d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>romantico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_genere</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thriller</label>
+            <language>en</language>
+            <name>x_863227_videoteca_film_videogioco</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-19 13:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fe963ea47bf551081a97cb2a36d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-19 13:16:34</sys_updated_on>
+            <value>thriller</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

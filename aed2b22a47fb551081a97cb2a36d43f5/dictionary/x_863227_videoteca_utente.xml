@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Utente" max_length="40" name="x_863227_videoteca_utente" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cognome" mandatory="true" max_length="40" name="cognome" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Credito" mandatory="true" max_length="20" name="credito" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="60" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" mandatory="true" max_length="40" name="password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cliente" label="Ruolo" mandatory="true" max_length="40" name="ruolo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cliente" sequence="0" value="cliente"/>
+                <element inactive_on_update="false" label="Operatore" sequence="1" value="operatore"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="default" label="Tipologia" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
+                <element inactive_on_update="false" label="Terminalista" sequence="1" value="terminalista"/>
+                <element inactive_on_update="false" label="Scaffalista" sequence="2" value="scaffalista"/>
+            </choice>
+        </element>
+    </element>
+</database>
